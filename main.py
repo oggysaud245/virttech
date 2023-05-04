@@ -1,7 +1,7 @@
-from ecommerceAssigment.cart import Cart
-from ecommerceAssigment.placeorder import PlaceOrder
-from ecommerceAssigment.products import Products
-from ecommerceAssigment.user import User
+from cart import Cart
+from placeorder import PlaceOrder
+from products import Products
+from user import User
 
 tshirt = Products("Tshirt", 500)  # Tshirt as a product
 tshirt.description = "Tshirt description"  # Tshirt description
